@@ -57,12 +57,12 @@ def main():
     input1 = "./HW2/img/Lenna.bmp"
     input2 = "./HW2/img/chessking.jpg"
     input3 = "./HW2/img/Breakfast.bmp"
-    output1 = "./HW2/output/result_a_robinson_lenna.png"
-    output2 = "./HW2/output/result_a_robinson_chessking.png"
-    output3 = "./HW2/output/result_a_robinson_breakfast.png"
-    compare_output1 = "./HW2/output/compare_a_robinson_lenna.png"
-    compare_output2 = "./HW2/output/compare_a_robinson_chessking.png"
-    compare_output3 = "./HW2/output/compare_a_robinson_breakfast.png"
+    output1 = "./HW2/output/a_result_robinson_lenna.png"
+    output2 = "./HW2/output/a_result_robinson_chessking.png"
+    output3 = "./HW2/output/a_result_robinson_breakfast.png"
+    compare_output1 = "./HW2/output/a_compare_robinson_lenna.png"
+    compare_output2 = "./HW2/output/a_compare_robinson_chessking.png"
+    compare_output3 = "./HW2/output/a_compare_robinson_breakfast.png"
 
     img1 = cv2.imread(input1, cv2.IMREAD_COLOR)
     img2 = cv2.imread(input2, cv2.IMREAD_COLOR)
